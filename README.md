@@ -1,4 +1,4 @@
-# (WIP I'm still studying the data engineering)
+# (WIP I'm still exploring the world of data engineering)
 ---
 # Data Warehouse and Analytics Project
 Building a modern data warehouse with PostgreSQL, inclidng ETL process, data modeling, and analytics.
