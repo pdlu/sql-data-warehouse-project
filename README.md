@@ -1,10 +1,8 @@
 # Data Warehouse and Analytics Project
 Building a modern data warehouse with PostgreSQL, inclidng ETL process, data modeling, and analytics.
 
-
-Welcome to the **Data Warehouse and Analytics Project** Repository.
+## Project Overview
 This project demonstrates a comprehensive data warehousing and analytics solution, from building a data warehouse to generating actionable insights. Designed as a portfolio project that highlights industry best practices in data engineering ana analytics.
---- 
 
 ## Project Requirements
 ### Building the Data Warehouse (Data Engineering)
@@ -23,7 +21,7 @@ Develop a modern data warehouse using PostgreSQL to consolidate sales data, enab
 
 #### BI: Analytics & Reporting (Data Analytics)
 
-#### Obkective 
+#### Objective 
 Develop SQL-basd analytics to deliver detailed insights into:
 - **Customer Behabior**
 - **Product Performance**
