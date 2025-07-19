@@ -1,4 +1,4 @@
-# Data Warehouse and Analytics Project
+# Data Warehouse and Analytics Project (WIP)
 Building a modern data warehouse with PostgreSQL, inclidng ETL process, data modeling, and analytics.
 
 ## Project Overview
