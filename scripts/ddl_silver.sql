@@ -61,7 +61,7 @@ CREATE TABLE silver.erp_px_cat_g1v2(
 	id VARCHAR(50),
 	cat VARCHAR(50),
 	subcat VARCHAR(50),
-	maintinance VARCHAR(50),
+	maintenance VARCHAR(50),
 	dwh_create_date TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
 
