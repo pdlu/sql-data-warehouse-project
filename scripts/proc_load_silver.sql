@@ -231,7 +231,7 @@ BEGIN
 			END,
 		CASE WHEN UPPER(TRIM(gen)) IN ('F', 'FEMALE') THEN 'Female'
 			 WHEN UPPER(TRIM(gen)) IN ('M', 'Male') THEN 'Male'
-			 ELSE 'NA'
+			 ELSE 'N/A'
 			 END
 	FROM bronze.erp_cust_az12;
 	
@@ -262,7 +262,7 @@ BEGIN
 	SELECT REPLACE (cid, '-', '') AS cid, 
 		CASE WHEN TRIM(cntry) = 'DE' THEN 'Germany'
 			 WHEN TRIM(cntry) IN ('US', 'USA', 'United States') THEN 'United States' 
-			 WHEN TRIM(cntry) = '' OR cntry IS NULL THEN 'NA'
+			 WHEN TRIM(cntry) = '' OR cntry IS NULL THEN 'N/A'
 			 ELSE TRIM(cntry)
 			 END AS cntry
 	FROM bronze.erp_loc_a101;
