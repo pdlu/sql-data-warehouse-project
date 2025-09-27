@@ -22,7 +22,7 @@ How to use:
 
 */
 
- CALL bronze.load_bronze();
+CALL bronze.load_bronze();
 
 CREATE OR REPLACE PROCEDURE bronze.load_bronze()
 LANGUAGE plpgsql
